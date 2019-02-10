@@ -13,7 +13,9 @@ INDEX:
 
 GOALS OF THE PROJECT
 - 1st intention: Predict number of health inspections from ratings, reviews and bussines characteristics.
-- 2nd intention: Predict Restaurant Ratings from reviews and bussines characteristics. FINAL DECISION: This project is about predicting restaurant ratings from restaurants reviews and other characteristics of the businesses.
+- 2nd intention: Predict Restaurant Ratings from reviews and bussines characteristics. 
+
+FINAL DECISION: This project is about predicting restaurant ratings from restaurants reviews and other characteristics of the businesses.
 
 Had to orginize data from 6 files and I end up with 2 different datasets, the first one is the Reviews gathered from Yelp documentation. It is a json file that I decode with the method JSONDecoder to read it. The second is an other json file corresponding to business features; and then I merged both with the business ID column.
 
